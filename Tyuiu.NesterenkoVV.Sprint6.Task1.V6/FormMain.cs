@@ -40,5 +40,10 @@ namespace Tyuiu.NesterenkoVV.Sprint6.Task1.V6
         {
             MessageBox.Show("Таск 0 выполнил студент группы ИИПБ-25-1 Нестеренко Вячеслав Владимирович", "Сообщение", MessageBoxButtons.OK);
         }
+
+        private void buttonResult_MouseDown(object sender, MouseEventArgs e)
+        {
+
+        }
     }
 }

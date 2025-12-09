@@ -37,10 +37,10 @@
             textBoxVarA = new TextBox();
             textBoxData = new TextBox();
             groupBoxResult = new GroupBox();
+            buttonInfo = new Button();
             buttonDone = new Button();
             textBoxResult = new TextBox();
             textBoxTextResult = new TextBox();
-            buttonInfo = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBoxFormula).BeginInit();
             groupBoxData.SuspendLayout();
             groupBox.SuspendLayout();
@@ -130,6 +130,19 @@
             groupBoxResult.TabStop = false;
             groupBoxResult.Text = "Вывод данных";
             // 
+            // buttonInfo
+            // 
+            buttonInfo.FlatStyle = FlatStyle.Flat;
+            buttonInfo.Location = new Point(43, 132);
+            buttonInfo.Name = "buttonInfo";
+            buttonInfo.Size = new Size(44, 39);
+            buttonInfo.TabIndex = 6;
+            buttonInfo.Text = "?";
+            buttonInfo.TextImageRelation = TextImageRelation.ImageAboveText;
+            buttonInfo.UseCompatibleTextRendering = true;
+            buttonInfo.UseVisualStyleBackColor = true;
+            buttonInfo.Click += buttonInfo_Click;
+            // 
             // buttonDone
             // 
             buttonDone.FlatStyle = FlatStyle.Popup;
@@ -161,19 +174,6 @@
             textBoxTextResult.Size = new Size(114, 47);
             textBoxTextResult.TabIndex = 2;
             textBoxTextResult.Text = "Результат:\r\n";
-            // 
-            // buttonInfo
-            // 
-            buttonInfo.FlatStyle = FlatStyle.Flat;
-            buttonInfo.Location = new Point(43, 132);
-            buttonInfo.Name = "buttonInfo";
-            buttonInfo.Size = new Size(44, 39);
-            buttonInfo.TabIndex = 6;
-            buttonInfo.Text = "?";
-            buttonInfo.TextImageRelation = TextImageRelation.ImageAboveText;
-            buttonInfo.UseCompatibleTextRendering = true;
-            buttonInfo.UseVisualStyleBackColor = true;
-            buttonInfo.Click += buttonInfo_Click;
             // 
             // FormMain
             // 

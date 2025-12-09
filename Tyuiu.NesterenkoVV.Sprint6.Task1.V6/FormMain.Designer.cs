@@ -119,6 +119,7 @@
             buttonResult.Text = "Выполнить";
             buttonResult.UseVisualStyleBackColor = false;
             buttonResult.Click += buttonResult_Click;
+            buttonResult.MouseDown += buttonResult_MouseDown;
             // 
             // textBoxVarEnd
             // 
