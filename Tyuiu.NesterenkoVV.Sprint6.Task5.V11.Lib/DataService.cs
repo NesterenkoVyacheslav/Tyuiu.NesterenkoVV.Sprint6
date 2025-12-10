@@ -13,6 +13,7 @@ namespace Tyuiu.NesterenkoVV.Sprint6.Task5.V11.Lib
                 {
                     len++;
                 }
+                
             }
             double[] numsArray = new double[len];
 
