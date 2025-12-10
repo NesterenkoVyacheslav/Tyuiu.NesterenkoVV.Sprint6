@@ -175,7 +175,7 @@
             groupBoxResult.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 204);
             groupBoxResult.Location = new Point(18, 142);
             groupBoxResult.Name = "groupBoxResult";
-            groupBoxResult.Size = new Size(1100, 461);
+            groupBoxResult.Size = new Size(1032, 461);
             groupBoxResult.TabIndex = 4;
             groupBoxResult.TabStop = false;
             groupBoxResult.Text = "Вывод:";
@@ -194,7 +194,7 @@
             series1.Legend = "Legend1";
             series1.Name = "Series1";
             chartFunction.Series.Add(series1);
-            chartFunction.Size = new Size(610, 411);
+            chartFunction.Size = new Size(551, 411);
             chartFunction.TabIndex = 1;
             chartFunction.Text = "chart1";
             // 
