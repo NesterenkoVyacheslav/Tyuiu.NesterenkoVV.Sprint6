@@ -112,7 +112,7 @@
             // buttonHelp
             // 
             buttonHelp.Image = (Image)resources.GetObject("buttonHelp.Image");
-            buttonHelp.Location = new Point(1024, 11);
+            buttonHelp.Location = new Point(1014, 9);
             buttonHelp.Name = "buttonHelp";
             buttonHelp.Size = new Size(111, 71);
             buttonHelp.TabIndex = 8;
